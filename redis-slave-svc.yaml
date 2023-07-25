@@ -9,7 +9,7 @@ metadata:
 spec:
   selector:
     app: redis
-    role: slaver
+    role: slave
     tier: backend
   ports:
   - port: 6379
